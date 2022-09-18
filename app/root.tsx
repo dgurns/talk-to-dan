@@ -46,6 +46,11 @@ export default function App() {
 				<ScrollRestoration />
 				<Scripts />
 				<LiveReload />
+				<script
+					defer
+					src="https://static.cloudflareinsights.com/beacon.min.js"
+					data-cf-beacon='{"token": "63f6429eeead483fb996a8d4a99449c5"}'
+				></script>
 			</body>
 		</html>
 	);
@@ -69,6 +74,11 @@ export const ErrorBoundary: ErrorBoundaryComponent = ({ error }) => {
 				<ScrollRestoration />
 				<Scripts />
 				<LiveReload />
+				<script
+					defer
+					src="https://static.cloudflareinsights.com/beacon.min.js"
+					data-cf-beacon='{"token": "63f6429eeead483fb996a8d4a99449c5"}'
+				></script>
 			</body>
 		</html>
 	);
